@@ -12,18 +12,12 @@ const Skills = () => {
             {/* Background Decorative SVG (optional) */}
             <div className="absolute inset-0 pointer-events-none opacity-10 dark:opacity-5">
                 <div className="absolute inset-0 z-0 pointer-events-none">
-                    <img
+                    <Image
                         src="/Assets/skills_logo.jpg"
                         alt="RGUKT Basar Campus"
                         className="w-full h-full object-cover opacity-10 dark:opacity-20"
                     />
                 </div>
-               {/*  <Image
-                    
-                    alt="Decorative"
-                    fill
-                    className="object-cover"
-                /> */}
             </div>
 
             <div className="relative z-10 max-w-6xl mx-auto">

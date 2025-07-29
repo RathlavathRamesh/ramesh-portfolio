@@ -3,6 +3,7 @@ import { FC } from "react";
 import TimelineCard from "../components/TimelineCard";
 import { FaGraduationCap } from "react-icons/fa";
 import { educationData } from "../constants/educationData";
+import Image from "next/image";
 
 const Education: FC = () => {
     return (
@@ -12,7 +13,7 @@ const Education: FC = () => {
         >
             {/* Background Image */}
             <div className="absolute inset-0 z-0 pointer-events-none">
-                <img
+                <Image
                     src="/Assets/rgukt_logo_light.jpeg"
                     alt="RGUKT Basar Campus"
                     className="w-full h-full object-cover opacity-10 dark:opacity-20"

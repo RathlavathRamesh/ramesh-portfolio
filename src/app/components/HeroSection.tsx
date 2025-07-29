@@ -22,7 +22,7 @@ export default function Hero() {
                 className="md:w-1/2 text-center md:text-left z-10 space-y-6"
             >
                 <h1 className="text-4xl md:text-6xl font-extrabold leading-tight">
-                    Hi, I'm{" "}
+                    Hi, I am{" "}
                     <span className="text-blue-400">
                         Ramesh Nayak Rathlavath
                     </span>

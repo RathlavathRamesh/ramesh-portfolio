@@ -3,6 +3,7 @@ import { FC } from "react";
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 import { projects } from "../constants/projects";
 import { FaProjectDiagram } from "react-icons/fa";
+import Image from "next/image";
 
 const Projects: FC = () => {
     return (
@@ -18,7 +19,7 @@ const Projects: FC = () => {
                             key={idx}
                             className="bg-gray-100 dark:bg-gray-900 rounded-xl overflow-hidden shadow-md hover:shadow-lg transition"
                         >
-                            <img
+                            <Image
                                 src={project.image}
                                 alt={project.title}
                                 className="w-full h-48 object-cover"

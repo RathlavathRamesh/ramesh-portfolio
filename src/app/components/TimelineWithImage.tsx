@@ -1,5 +1,6 @@
 "use client";
 import { FC } from "react";
+import Image from "next/image";
 
 interface TimelineCardImageProps {
     imageUrl: string;
@@ -23,7 +24,7 @@ const TimelineCardWithImage: FC<TimelineCardImageProps> = ({
 
             <div className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md hover:shadow-lg transition-all duration-300 border-l-4 border-blue-500">
                 <div className="flex items-center gap-3 mb-2 text-blue-600 dark:text-blue-400">
-                    <img
+                    <Image
                         src={imageUrl}
                         alt="logo"
                         className="w-8 h-8 object-contain rounded"
